@@ -51,7 +51,7 @@
             <a href="commande.html" class="food-box food1 no-grid">
                 <div class="food-details">
                     
-                     <p class="food-name"> Chaussures en cuir homme </p>
+ <p class="food-name"> Chaussures en cuir homme </p>
                      <p class="food-price"> 35000 FCFA</p>
                 </div>
             </a>
