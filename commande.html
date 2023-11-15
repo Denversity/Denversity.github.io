@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bon de commande</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <section class="top-page">
+        <header  class="header"> 
+         <img src="Images/logo2.png" alt="logo du site">
+        </header>
+    </section>     
+    <form method="post" onsubmit="alert('La commande est envoyé avec succès.')">
+        <h4>BON DE COMMANDE</h4>
+        <h6> (Remplir tous les champs pour un meilleur service)</h6>
+        <hr>
+        <div class="name-field">
+            <div>
+                <label> Nom</label>
+                <input type="text" name="nom" id="nom" placeholder="nom du client" required>
+            </div>
+            <div>
+                <label> Prenom</label>
+                <input type="text" name="prenom" id="prenom" placeholder="votre prénom">
+            </div>
+        </div>
+        <label> Adresse e-mail</label>
+        <input type="email" name="mail" id="mail" placeholder="votre adresse e-mail">
+        <label> Contact (WhatsApp)</label>
+        <input type="tel" name="phone" id="phone" placeholder="votre numéro de téléphone" required>
+        <label> Nom de l'article</article></label>
+        <input type="text" name="product" id="product" placeholder="article sollicité" required>
+        <label> Code (il est inscrit près du nom)</label>
+        <input type="text" name="code" id="code" placeholder="le code associé au produit" required>
+        <!-- <label> Mot de passe</label>
+        <input type="password"> -->
+        <input type="submit" value="COMMANDER">
+        <!-- <p>Vous avez dejà un compte?  <a href="">Se connecter</a></p> -->
+    </form>
+    
+</body>
+</html>
