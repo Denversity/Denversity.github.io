@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'nscription</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <section class="top-page">
+        <header  class="header"> 
+         <img src="Images/logo2.png" alt="logo du site">
+        </header>
+    </section>     
+    <form action=""  onsubmit="alert('Votre demande a bien été reçue.')">
+        <h4>INSCRIPTION</h4>
+        <h6> (contactez nous pour présenter vos produits sur Continental)</h6>
+        <hr>
+        <div class="name-field">
+            <div>
+                <label> Nom</label>
+                <input type="text" name="nomsell" id="nomsell" placeholder="votre nom" required>
+            </div>
+            <div>
+                <label> Prenom</label>
+                <input type="text" name="prenomsell" id="prenomsell" placeholder="votre prénom" required>
+            </div>
+        </div>
+        <label> Adresse e-mail</label>
+        <input type="email" name="mailsell" id="mailsell" placeholder="votre adresse e-mail" required>
+        <label> Contact (WhatsApp)</label>
+        <input type="tel" name="phonesell" id="phonesell" placeholder=" votre numéro de téléphone" required>
+        <!-- <label> Mot de passe</label>
+        <input type="password"> -->
+        <input type="submit" value="S'inscrire">
+        <p>Vous avez dejà un compte?  <a href="">Se connecter</a></p>
+    </form>
+    
+</body>
+</html>
