@@ -19,28 +19,12 @@
             <li> <a href="#all-products">Les catégories</a></li>
             <li> <a href="inscription.html">S'inscrire</a></li>
         </nav>
-        <!-- <input class="search" type="search" id="search" value="">
-        <input class="button" type="button" id="button" onclick="rechercher()" value="chercher"> -->
         </header>
        <div class="landing-page">
         <h1 class="big-title">
             Continental, Osons entreprendre.
         </h1>
        </div>
-       <!-- <div class="slider-frame">
-        <div class="slide-images">
-                <div class="img-container">
-                    <img src="Images/15.jpg">
-                </div>
-                <div class="img-container">
-                    <img src="Images/17.jpg">
-                </div>
-                <div class="img-container">
-                    <img src="Images/6.jpg">
-                </div>
-        </div>
-    </div> -->
-
         <a class="scroll-down" href="#services"> <i class="fa-regular fa-arrow-down-from-arc"></i>
            <p>scroller</p>
         </a>
@@ -136,9 +120,6 @@
         <p class="copyright">&copy; 2023 - Continental</p>
         <a href="" class="cgv"> Conditions générales de vente</a>
     </footer>
-    <!-- <a href="#" class="btn">
-        <i class="fa-solid fa-circle-arrow-up fa-lg icone"></i> 
-    </a> -->
     <a class="icone" href="#"> <i class="fa-solid fa-circle-arrow-up fa-lg btn" > </i></a>
     
 </body>
